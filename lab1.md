@@ -24,4 +24,9 @@ The last step was to try some commands. The following were the commands that wer
 * `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`
 * `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`
 
+
+The following image displays the results from the commands.
+
 ![Image](testcommands.png)
+
+After these commands, I used CTRL + D to logout from the remote server.
