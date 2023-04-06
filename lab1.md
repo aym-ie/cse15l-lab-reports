@@ -24,4 +24,4 @@ The last step was to try some commands. The following were the commands that wer
 * `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`
 * `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`
 
-![Image](commands.png)
+
