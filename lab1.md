@@ -2,6 +2,8 @@
 
 The first step in logging into the course-specific account on `ieng` would be to install VSCode. I already had VSCode on my device, but this is what it should look like when opening VSCode.
 
+Download VSCode [here](https://code.visualstudio.com/download).
+
 ![Image](VSCode.png)
 
 ---
