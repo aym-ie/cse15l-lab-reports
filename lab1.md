@@ -8,7 +8,7 @@ Download VSCode [here](https://code.visualstudio.com/download).
 
 ---
 
-For remotely connecting, I first set up `git bash` in VSCode. I then opened a new terminal and set it to bash instead of powershell. In that new terminal, I then typed the command `ssh cse15lsp23bq@ieng6.ucsd.edu` into the terminal. `sp23` should be replaced by your current quarter and year, and `bq` should be replaced by the letters in *your* course specific account.
+For remotely connecting, I first set up `git bash` in VSCode. I then opened a new terminal and set it to bash instead of powershell. In that new terminal, I then typed the command `ssh cse15lsp23br@ieng6.ucsd.edu` into the terminal. `sp23` should be replaced by your current quarter and year, and `br` should be replaced by the letters in *your* course specific account.
 
 After typing this command, the terminal asks if you want to connect to the server. Type `yes` and continue. You are then prompted to type in your password for the course specific account. The terminal does not show the characters as you type it in, so just type the password and press enter. After entering my password, the following was shown. I struggled with logging in at first because I had changed my AD password rather than setting the course specific account password.
 
