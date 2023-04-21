@@ -18,17 +18,37 @@ After typing this command, the terminal asks if you want to connect to the serve
 
 The last step was to try some commands. The following were the commands that were used.
 
-* `cd ~` : This command will change the directory to the home directory.
-* `cd` : This command on it's own will not do anything, but when paired with a directory, it will change the directory to the one behind this command.
-* `ls -lat` : This command will list the files in the current directory in the long format.
-* `ls -a` : This command will list the hidden files in the current directory.
-* `ls /home/linux/ieng6/cs15lsp23/cs15lsp23zz` : This command tries to access the directory of another student. It results in denied access since you do not have access to another student's directory.
-* `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/` : This command will copy the file after the `cp` command.
-* `cat /home/linux/ieng6/cs15lwi23/public/hello.txt` : This command will concatenate the files after the `cat` command and display the result, which in this case just shows the text in the hello.txt file.
+* `cd ~`
+* `cd`
+* `ls -lat`
+* `ls -a`
+* `ls /home/linux/ieng6/cs15lsp23/cs15lsp23zz`
+* `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`
+* `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`
 
 
-The following image displays the results from the commands.
+The following image displays the results from the commands:
 
 ![Image](testcommands.png)
 
-After these commands, I used CTRL + D to logout from the remote server.
+As shown in the image above,
+
+`cd ~` changes the current directory to the home directory, but has no visible change because the home directory is the current directory.
+
+`cd` will not do anything by itself, but when paired with a directory, it will change the directory to the one behind this command.
+
+`ls -lat` will list the files in the current directory in the long format.
+
+`ls -a` will list the hidden files in the current directory.
+
+`ls /home/linux/ieng6/cs15lsp23/cs15lsp23zz` tries to access the directory of another student, but results in denied access since you do not have access to another student's directory.
+
+`cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/` will copy the file after the `cp` command.
+
+`cat /home/linux/ieng6/cs15lwi23/public/hello.txt` will concatenate the files after the `cat` command and display the result, which in this case just shows the text in the hello.txt file.
+
+
+
+![Image](exit.png)
+
+After these commands, CTRL + D or simply typing "exit" will log you out of the server.
