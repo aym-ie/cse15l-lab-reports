@@ -47,7 +47,7 @@ As shown in the image above,
 
 `cat /home/linux/ieng6/cs15lwi23/public/hello.txt` will concatenate the files after the `cat` command and display the result, which in this case just shows the text in the hello.txt file.
 
-
+---
 
 ![Image](exit.png)
 
