@@ -115,3 +115,25 @@ Here is what the `/add-message` looks like after adding two messages:
 
 ---
 # Part 2: Bugs
+
+The bug that I chose is the bug in `reverseInPlace`.
+
+Here is the JUnit test that has a failure-inducing input into the original method for `reverseInPlace`.
+``` java
+@Test
+  public void testReverseInPlaceCustom() {
+    int[] input1 = {1, 2, 3};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{3, 2, 1}, input1);
+  }
+ ```
+ 
+Here is the JUnit test that does not induce a failure into the original method for `reverseInPlace`.
+```java
+@Test 
+  public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+  }
+```
