@@ -96,3 +96,22 @@ public class Server {
     }
 }
 ```
+
+The first method in my code is `public String handleRequest(URI url)`, which uses the path in the url to add messages and display them. If the url path has is `/add-message`, the string in the query after `s=` is concatenated into a string which is then returned to the page. If the url path is `/`, the added strings will be shown on the page. The url path and query are used as arguments in this method.
+
+The other method in my code is `public static void main(String[] args) throws IOException`, which starts the server with the argument as the port. If there is no argument for the port, the server does not start and a message is printed out into the terminal. When given an argument, the server starts with the argument as its port.
+
+
+Here is what the `/add-message` looks like after adding one message:
+
+
+![Image](add-message1.png)
+
+
+Here is what the `/add-message` looks like after adding two messages:
+
+
+![Image](add-message2.png)
+
+---
+# Part 2: Bugs
