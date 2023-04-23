@@ -137,3 +137,34 @@ Here is the JUnit test that does not induce a failure into the original method f
     assertArrayEquals(new int[]{ 3 }, input1);
   }
 ```
+
+Here is the symptom as an output of running the tests:
+![Image](symptom.png)
+
+Here is the code before fixing:
+```java
+  static void reverseInPlace(int[] arr) {
+
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
+
+Here is the code after fixing:
+```java
+  static void reverseInPlace(int[] arr) {
+  
+    for (int i = 0; i < arr.length / 2; i++) {
+      int e = arr[i];
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length - i - 1] = e;
+    }
+  }
+```
+The before code replaces the value at the front with the value at the end, but does not set the end value to the front value until it gets to the end, which replaces the end value with the front's new value, creating a palindrome rather than a reversed array. The after code stores the front value before replacing it with the end value and then replacing the end value with the stored value. The code also only goes halfway across the array so that it does not overwrite the new front and end values.
+
+---
+
+# Part 3
+In weeks 2 and 3, I learned how to use Github desktop to commit and pull code. I don't have a lot of experience using Github so it was interesting to clone repositories and open the code with VSCode. While I still don't know how to use Github to its full extent, I hope to get more used to the different commands.
