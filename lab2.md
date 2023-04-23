@@ -39,7 +39,7 @@ class StringServer {
     }
 }
 ```
-Here is the code to start the server, taken from the wavelet in lab 1.
+Here is the code to start the server, taken from the wavelet in lab 2.
 
 ``` java
 // A simple web server using Java's built-in HttpServer
