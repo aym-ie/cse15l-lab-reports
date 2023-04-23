@@ -118,7 +118,7 @@ Here is what the `/add-message` looks like after adding two messages:
 
 The bug that I chose is the bug in `reverseInPlace`.
 
-Here is the JUnit test that has a failure-inducing input into the original method for `reverseInPlace`.
+Here is the JUnit test that has a failure-inducing input into the original method for `reverseInPlace`:
 ``` java
 @Test
   public void testReverseInPlaceCustom() {
@@ -128,7 +128,7 @@ Here is the JUnit test that has a failure-inducing input into the original metho
   }
  ```
  
-Here is the JUnit test that does not induce a failure into the original method for `reverseInPlace`.
+Here is the JUnit test that does not induce a failure into the original method for `reverseInPlace`:
 ```java
 @Test 
   public void testReverseInPlace() {
