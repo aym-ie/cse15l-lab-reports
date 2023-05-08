@@ -1,4 +1,5 @@
-# Part One: StringServer
+# Lab Report 2
+## Part One: StringServer
 
 Here is my code for the StringServer:
 
@@ -114,7 +115,7 @@ Here is what the `/add-message` looks like after adding two messages:
 ![Image](add-message2.png)
 
 ---
-# Part 2: Bugs
+## Part 2: Bugs
 
 The bug that I chose is the bug in `reverseInPlace`.
 
@@ -166,5 +167,5 @@ The before code replaces the value at the front with the value at the end, but d
 
 ---
 
-# Part 3
+## Part 3
 In weeks 2 and 3, I learned how to use Github desktop to commit and pull code. I don't have a lot of experience using Github so it was interesting to clone repositories and open the code with VSCode. While I still don't know how to use Github to its full extent, I hope to get more used to the different commands.
