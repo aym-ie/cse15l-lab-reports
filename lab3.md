@@ -9,14 +9,14 @@
 The option `-iname` searches for a file or directory by name in a case insensitive manner. This option is helpful if you don't remember if the name of the directory or file is uppercase or lowercase ([ex. 1.1](https://aym-ie.github.io/cse15l-lab-reports/lab3#example-11)). It is also helpful if the name of the directory or file is hard to type with the many differences in cases ([ex. 1.2](https://aym-ie.github.io/cse15l-lab-reports/lab3#example-12)).
 
 ###### Example 1.1
-```
+```bash
 yeeam@AMY-XPS13 MINGW64 ~/Documents/GitHub/docsearch (main)
 $ find -iname "TECHnical"
 ./technical
 ```
 
 ###### Example 1.2
-```
+```bash
 yeeam@AMY-XPS13 MINGW64 ~/Documents/GitHub/docsearch (main)
 $ mkdir ./technical/cAsE-iNseNsiTIVe
 
@@ -35,14 +35,14 @@ $ find -iname "case-insensitive"
 The option `-maxdepth` can limit the amount of subdirectories in the search tree. This option can help find the directories or files with a limited number of directories so that there aren't as many options to look through. [Example 2.1](https://aym-ie.github.io/cse15l-lab-reports/lab3#example-21) finds the directory technical with a maxdepth of 1, and [example 2.2](https://aym-ie.github.io/cse15l-lab-reports/lab3#example-22) finds the text files with a maxdepth of 2 in `docsearch`.
 
 ###### Example 2.1
-```
+```bash
 yeeam@AMY-XPS13 MINGW64 ~/Documents/GitHub/docsearch (main)
 $ find . -maxdepth 1 -name "technical"
 ./technical
 ```
 
 ###### Example 2.2
-```
+```bash
 yeeam@AMY-XPS13 MINGW64 ~/Documents/GitHub/docsearch (main)
 $ find . -maxdepth 2 -name "*.txt"
 ./basepair.txt
@@ -61,7 +61,7 @@ $ find . -maxdepth 2 -name "*.txt"
 The option `-type` can narrow the search down to a file or a directory, depending on whether you use f (file) or d (directory) after the command. In [example 3.1](https://aym-ie.github.io/cse15l-lab-reports/lab3#example-31), `-type d` found all the directories and subdirectories in `./technical`. In [example 3.2](https://aym-ie.github.io/cse15l-lab-reports/lab3#example-32), `-type f` found the files with `*.java` in its name.
 
 ###### Example 3.1
-```
+```bash
 yeeam@AMY-XPS13 MINGW64 ~/Documents/GitHub/docsearch (main)
 $ find ./technical -type d
 ./technical
@@ -78,7 +78,7 @@ $ find ./technical -type d
 ```
 
 ###### Example 3.2
-```
+```bash
 yeeam@AMY-XPS13 MINGW64 ~/Documents/GitHub/docsearch (main)
 $ file > technical/empty.java
 Usage: file [-bcCdEhikLlNnprsSvzZ0] [--apple] [--extension] [--mime-encoding]
@@ -100,7 +100,7 @@ $ find ./technical -type f -name "*.java"
 The option `-delete` can delete files and empty directories. As seen in [example 4.1](https://aym-ie.github.io/cse15l-lab-reports/lab3#example-41), the directory cannot be deleted since it isn't empty, but the file can be deleted. The file, however, can be deleted, making `./technical/delete` now empty. Once empty, the directory can be deleted and no longer shows up under `./techincal` or under `-empty`, which can be seen in [example 4.2](https://aym-ie.github.io/cse15l-lab-reports/lab3#example-42).
 
 ###### Example 4.1
-```
+```bash
 yeeam@AMY-XPS13 MINGW64 ~/Documents/GitHub/docsearch (main)
 $ mkdir delete
 
@@ -128,7 +128,7 @@ $ find -type d -empty
 ```
 
 ###### Example 4.2
-```
+```bash
 yeeam@AMY-XPS13 MINGW64 ~/Documents/GitHub/docsearch (main)
 $ find "delete" -type d -delete
 
