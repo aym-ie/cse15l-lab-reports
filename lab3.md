@@ -4,18 +4,18 @@
 
 ---
 ### Option 1: `-iname`
-[Source](https://adamtheautomator.com/bash-find/)
+[Source](https://adamtheautomator.com/bash-find/), found by a Google search for the `find` command on the bash terminal.
 
-Example 1
+The option `-iname` searches for a file or directory by name in a case insensitive manner. This option is helpful if you don't remember if the name of the directory or file is uppercase or lowercase ([ex. 1](https://github.com/aym-ie/cse15l-lab-reports/edit/main/lab3.md#example-11)). It is also helpful if the name of the directory or file is hard to type with the many differences in cases ([ex. 2](https://github.com/aym-ie/cse15l-lab-reports/edit/main/lab3.md#example-2)).
+
+###### Example 1.1
 ```
 yeeam@AMY-XPS13 MINGW64 ~/Documents/GitHub/docsearch (main)
 $ find -iname "TECHnical"
 ./technical
 ```
-//
 
-
-Example 2
+###### Example 1.2
 ```
 yeeam@AMY-XPS13 MINGW64 ~/Documents/GitHub/docsearch (main)
 $ mkdir ./technical/cAsE-iNseNsiTIVe
@@ -27,21 +27,21 @@ yeeam@AMY-XPS13 MINGW64 ~/Documents/GitHub/docsearch (main)
 $ find -iname "case-insensitive"
 ./technical/cAsE-iNseNsiTIVe
 ```
-//
 
 ---
 ### Option 2: `-maxdepth`
-[Source](https://adamtheautomator.com/bash-find/)
+[Source](https://adamtheautomator.com/bash-find/), found by a Google search for the `find` command on the bash terminal.
 
-Example 1
+The option `-maxdepth` can limit the amount of subdirectories in the search tree. This option can help find the directories or files with a limited number of directories so that there aren't as many options to look through.
+
+###### Example 2.1
 ```
 yeeam@AMY-XPS13 MINGW64 ~/Documents/GitHub/docsearch (main)
 $ find . -maxdepth 1 -name "technical"
 ./technical
 ```
-//
 
-Example 2
+###### Example 2.2
 ```
 yeeam@AMY-XPS13 MINGW64 ~/Documents/GitHub/docsearch (main)
 $ find . -maxdepth 2 -name "*.txt"
@@ -53,13 +53,12 @@ $ find . -maxdepth 2 -name "*.txt"
 ./technical/empty.txt
 ./text.txt
 ```
-//
 
 ---
 ### Option 3: `-type`
-[Source](https://adamtheautomator.com/bash-find/)
+[Source](https://adamtheautomator.com/bash-find/), found by a Google search for the `find` command on the bash terminal.
 
-Example 1
+###### Example 3.1
 ```
 yeeam@AMY-XPS13 MINGW64 ~/Documents/GitHub/docsearch (main)
 $ find ./technical -type d
@@ -77,7 +76,7 @@ $ find ./technical -type d
 ```
 //
 
-Example 2
+###### Example 3.2
 ```
 yeeam@AMY-XPS13 MINGW64 ~/Documents/GitHub/docsearch (main)
 $ file > technical/empty.java
@@ -96,9 +95,9 @@ $ find ./technical -type f -name "*.java"
 
 ---
 ### Option 4: `-delete`
-[Source](https://adamtheautomator.com/bash-find/)
+[Source](https://adamtheautomator.com/bash-find/), found by a Google search for the `find` command on the bash terminal.
 
-Example 1
+###### Example 4.1
 ```
 yeeam@AMY-XPS13 MINGW64 ~/Documents/GitHub/docsearch (main)
 $ mkdir delete
@@ -131,7 +130,7 @@ $ find -type d -empty
 ```
 //
 
-Example 2
+###### Example 4.2
 ```
 yeeam@AMY-XPS13 MINGW64 ~/Documents/GitHub/docsearch (main)
 $ find "delete" -type d -delete
