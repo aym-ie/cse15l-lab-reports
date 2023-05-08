@@ -96,6 +96,7 @@ $ find ./technical -type f -name "*.java"
 ---
 ### Option 4: `-delete`
 [Source](https://adamtheautomator.com/bash-find/), found by a Google search for the `find` command on the bash terminal.
+
 The option `-delete` can delete files and empty directories. As seen in [example 4.1](https://aym-ie.github.io/cse15l-lab-reports/lab3#example-41), the directory cannot be deleted since it isn't empty, but the file can be deleted. The file, however, can be deleted, making `./technical/delete` now empty. Once empty, the directory can be deleted and no longer shows up under `./techincal` or under `-empty`, which can be seen in [example 4.2](https://aym-ie.github.io/cse15l-lab-reports/lab3#example-42).
 
 ###### Example 4.1
