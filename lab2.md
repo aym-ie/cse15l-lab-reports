@@ -106,13 +106,13 @@ The other method in my code is `public static void main(String[] args) throws IO
 Here is what the `/add-message` looks like after adding one message:
 
 
-![Image](add-message1.png)
+![Image](lab2-images/add-message1.png)
 
 
 Here is what the `/add-message` looks like after adding two messages:
 
 
-![Image](add-message2.png)
+![Image](lab2-images/add-message2.png)
 
 ---
 ## Part 2: Bugs
@@ -140,7 +140,7 @@ Here is the JUnit test that does not induce a failure into the original method f
 ```
 
 Here is the symptom as an output of running the tests:
-![Image](symptom.png)
+![Image](lab2-images/symptom.png)
 
 Here is the code before fixing:
 ```java
