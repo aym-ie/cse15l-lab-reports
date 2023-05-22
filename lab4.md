@@ -1,14 +1,18 @@
 # Lab 4 - Vim
 
+
 ## Step 4: Log into ieng6
+![Image](lab4-images/ieng6-login.png)
 
 ---
 
 ## Step 5: Clone your fork of the repository from your Github account
+![Image](lab4-images/clone-fork.png)
 
 ---
 
 ## Step 6: Run the tests, demonstrating that they fail
+![Image](lab4-images/run-failed-tests.png)
 
 ---
 
