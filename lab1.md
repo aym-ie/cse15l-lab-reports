@@ -4,7 +4,7 @@ The first step in logging into the course-specific account on `ieng` would be to
 
 Download VSCode [here](https://code.visualstudio.com/download).
 
-![Image](VSCode.png)
+![Image](lab1-images/VSCode.png)
 
 ---
 
@@ -12,7 +12,7 @@ For remotely connecting, I first set up `git bash` in VSCode. I then opened a ne
 
 After typing this command, the terminal asks if you want to connect to the server. Type `yes` and continue. You are then prompted to type in your password for the course specific account. The terminal does not show the characters as you type it in, so just type the password and press enter. After entering my password, the following was shown. I struggled with logging in at first because I had changed my AD password rather than setting the course specific account password.
 
-![Image](remoteconnecting.png)
+![Image](lab1-images/remoteconnecting.png)
 
 ---
 
@@ -29,7 +29,7 @@ The last step was to try some commands. The following were the commands that wer
 
 The following image displays the results from the commands:
 
-![Image](testcommands.png)
+![Image](lab1-images/testcommands.png)
 
 As shown in the image above,
 
@@ -49,6 +49,6 @@ As shown in the image above,
 
 ---
 
-![Image](exit.png)
+![Image](lab1-images/exit.png)
 
 After these commands, CTRL + D or simply typing "exit" will log you out of the server.
