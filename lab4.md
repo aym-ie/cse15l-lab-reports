@@ -2,6 +2,9 @@
 
 
 ## Step 4: Log into ieng6
+
+To login into ieng6, I typed `ssh cs15lsp23br@ieng6.ucsd.edu <enter>`. Since I have an SSH key set up for my computer, I didn't need to type in my password.
+
 ![Image](lab4-images/ieng6-login.png)
 
 ---
