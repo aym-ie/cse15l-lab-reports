@@ -7,3 +7,5 @@
 [Lab 3](https://aym-ie.github.io/cse15l-lab-reports/lab3)
 
 [Lab 4](https://aym-ie.github.io/cse15l-lab-reports/lab4)
+
+[Lab 5](https://aym-ie.github.io/cse15l-lab-reports/lab5)
