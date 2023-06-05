@@ -40,7 +40,7 @@ This resulted in viewing `ListExamples.java` in normal mode.
 ![Image](lab4-images/normal-mode.png)
 
 
-Based on the position of my cursor, I then used `<up> a <right> <right> <right> <right> <right> <right> <right> <delete> 2` to edit the file and change the last `index1` into `index2`. I used `a` to append `index1`, entering insert mode to delete the `1` and replace it with a `2`.
+Starting from the bottom of the file by clicking my mouse (the closing bracket), I used `<up> <up> <up> <up> <up> <up> a <right> <right> <right> <right> <right> <right> <right> <right> <right> <right> <delete> 2` to edit the file and change the last `index1` into `index2`. I used `a` to append `index1`, entering insert mode to delete the `1` and replace it with a `2`.
 
 ![Image](lab4-images/insert-mode.png)
 
