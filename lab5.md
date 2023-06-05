@@ -13,7 +13,7 @@ In this scenario, the edstem post would look like the image below. The output is
 
 
 
-The image below contains the output and error from the command, where the junit package does not exist.
+The image below contains the output and error from the command, stating that the JUnit package does not exist.
 
 ![Image](lab5-images/terminal-output.png)
 
@@ -49,7 +49,7 @@ grade.sh:
 ![Image](lab5-images/grade-sh-contents.png)
 
 
-testListExamples.java:
+TestListExamples.java:
 
 ![Image](lab5-images/testListExamples.png)
 
